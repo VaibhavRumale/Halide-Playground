@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     auto start = std::chrono::high_resolution_clock::now();
 
     // Save the output image
-   Tools::save_image(output, "output.png"); // Replace with your output image path
+   Tools::save_image(output, "output.png"); 
 
     auto stop = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double, std::milli> duration = stop - start;
